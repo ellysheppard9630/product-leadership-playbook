@@ -1,68 +1,83 @@
-# Pre-Refinement
+# Delivery Sync
 
-Pre-Refinement is a working session between Product and Engineering leadership that occurs before backlog refinement.
+Delivery Sync is a weekly coordination meeting between Product and Engineering leadership.
 
-Its purpose is to ensure upcoming work is ready for Engineering before it reaches the broader development team.
+Its purpose is to ensure work moves smoothly through the delivery pipeline by identifying dependencies, removing blockers, and coordinating upcoming initiatives.
 
-Rather than spending refinement discovering missing information, identifying technical spikes, or debating whether work is ready, those conversations happen here.
+Unlike Backlog Health Review, this meeting is not about deciding what work should be prioritized.
 
-The result is shorter, more productive refinement sessions and fewer interruptions during development.
+Unlike Refinement, this meeting is not about implementation.
+
+Delivery Sync exists to coordinate the transition from Product planning into Engineering execution.
 
 ---
 
 # Purpose
 
-Pre-Refinement exists to answer one question:
+Delivery Sync answers one question:
 
-> **Is this work ready to bring to the Engineering team?**
+> **Is the work moving through our delivery pipeline without unnecessary friction?**
 
-The meeting focuses on removing uncertainty before implementation begins.
+The meeting focuses on coordination, communication, and readiness.
 
-Typical discussion includes:
+---
 
-- Discovery completeness
-- Technical unknowns
-- Story readiness
-- Required spikes
+# Ownership
+
+Delivery Sync is jointly owned by Product and Engineering.
+
+Product owns:
+
+- Business priorities
+- Discovery progress
+- Customer commitments
+
+Engineering owns:
+
+- Technical readiness
+- Delivery risks
+- Capacity planning
 - Dependencies
-- Acceptance criteria
-- Engineering concerns
+
+Both organizations share responsibility for ensuring work flows efficiently.
 
 ---
 
 # Objectives
 
-During each session the team should:
+During each meeting the team should:
 
-- Review upcoming work
-- Validate discovery is complete
-- Identify technical questions
-- Determine whether engineering spikes are required
-- Confirm acceptance criteria are sufficient
+- Review upcoming initiatives
+- Coordinate Product and Engineering priorities
 - Identify cross-team dependencies
-- Decide whether work is ready for Refinement
+- Surface delivery risks
+- Discuss customer commitments
+- Review engineering concerns
+- Prepare work for Pre-Refinement
 
-The objective is preparation—not estimation.
+The objective is alignment—not status reporting.
 
 ---
 
 # Typical Attendees
 
-Required:
+Required
 
 - Product Manager
-- Product Owner (if applicable)
 - Engineering Manager
 
-Optional:
+Recommended
 
+- Product Owner
 - Technical Lead
+
+Optional
+
 - Architect
-- UX Designer
+- QA Lead
+- UX
 
-The broader Engineering team should not attend this meeting.
-
-Their time is better spent once the work has already been prepared.
+Attendance should remain small enough to enable decisions.
 
 ---
 
@@ -70,186 +85,191 @@ Their time is better spent once the work has already been prepared.
 
 Weekly
 
-Ideally one or two days before Refinement.
+Schedule Delivery Sync after Backlog Health Review and before Pre-Refinement.
+
+This ensures Product has already established priorities before coordinating with Engineering.
 
 ---
 
 # Typical Agenda
 
-## Review Upcoming Stories
+## Review Upcoming Initiatives
 
-Walk through each upcoming initiative.
+Discuss work expected to enter delivery over the next several weeks.
 
-Discuss:
+Review:
 
 - Business objective
-- Customer problem
-- Expected outcome
-- Discovery findings
+- Current status
+- Target timeline
+- Discovery progress
 
-The focus is understanding—not implementation.
-
----
-
-## Validate Story Readiness
-
-Ask:
-
-- Is the problem clearly defined?
-- Is discovery complete?
-- Are success metrics identified?
-- Are acceptance criteria sufficient?
-- Are open questions documented?
-
-If the answer is no, determine what work remains before Refinement.
-
----
-
-## Identify Technical Discovery
-
-Engineering should identify areas requiring additional investigation.
-
-Examples:
-
-- Architecture spikes
-- Performance testing
-- API research
-- Dependency analysis
-- Security review
-
-Not every unknown should be solved during Refinement.
+The focus is preparing—not estimating.
 
 ---
 
 ## Review Dependencies
 
+Identify:
+
+- Cross-team work
+- Shared components
+- Vendor dependencies
+- Infrastructure work
+- Customer activities
+
+Resolving dependencies early prevents delivery delays later.
+
+---
+
+## Discuss Delivery Risks
+
+Engineering should highlight:
+
+- Capacity concerns
+- Technical uncertainty
+- Resource constraints
+- Architecture discussions
+- Potential schedule impacts
+
+The objective is transparency, not escalation.
+
+---
+
+## Review Customer Commitments
+
 Discuss:
 
-- Other engineering teams
-- Vendors
-- Infrastructure
-- Customer activities
-- Platform work
+- Customer expectations
+- Funded work
+- Regulatory deadlines
+- Executive commitments
 
-Dependencies identified early create fewer surprises later.
-
----
-
-## Decide Readiness
-
-Each initiative should leave the meeting with one of three outcomes:
-
-✅ Ready for Refinement
-
-Discovery is complete.
-
-Engineering has enough context.
+Ensure delivery plans remain aligned with business commitments.
 
 ---
 
-🟡 Needs Additional Discovery
+## Confirm Readiness
 
-Product or Engineering must complete additional work before Refinement.
+Determine whether each initiative is ready to move into Pre-Refinement.
 
----
+Possible outcomes include:
 
-⏸ Defer
-
-The initiative is not yet ready and should return to the backlog until additional information becomes available.
+- Ready
+- Needs additional discovery
+- Waiting on dependency
+- Deferred
 
 ---
 
 # Inputs
 
-Typical inputs include:
+Typical meeting inputs include:
 
+- Product Roadmap
+- Backlog priorities
 - Decision Records
-- Discovery documents
-- Customer feedback
-- Roadmap priorities
+- Discovery updates
+- Customer commitments
 - Engineering recommendations
-- Architecture notes
-- UX designs (when applicable)
+- Dependency tracking
 
 ---
 
 # Outputs
 
-Every Pre-Refinement meeting should produce:
+Each Delivery Sync should produce:
 
-- Stories ready for Refinement
-- Discovery action items
-- Engineering spikes
-- Updated acceptance criteria
+- Updated delivery priorities
 - Identified dependencies
-- Clear ownership of follow-up work
+- Assigned follow-up actions
+- Risk mitigation plans
+- Work approved for Pre-Refinement
 
-The goal is for Refinement to become a confirmation meeting rather than a discovery meeting.
+The meeting should increase confidence that upcoming work can move smoothly into Engineering.
 
 ---
 
 # AI Can Help
 
-AI can prepare Pre-Refinement by:
+AI can assist Delivery Sync by:
 
-- Reviewing Decision Records
-- Drafting acceptance criteria
-- Identifying missing requirements
-- Summarizing discovery work
-- Highlighting technical risks
-- Identifying duplicate stories
-- Suggesting clarifying questions
+- Summarizing project status
+- Highlighting dependency changes
+- Identifying blocked initiatives
+- Drafting meeting agendas
+- Capturing decisions
+- Generating follow-up actions
+- Producing executive summaries
 
-AI should reduce preparation effort—not replace Product or Engineering judgment.
+AI should reduce coordination overhead while leaving planning decisions to the team.
 
 ---
 
 # Common Mistakes
 
-## Turning It Into Refinement
+## Turning It Into a Status Meeting
 
-This meeting exists to prepare for Refinement—not replace it.
+Participants should already know project status.
 
-Avoid discussing estimates or implementation details.
-
----
-
-## Bringing the Entire Engineering Team
-
-The purpose is to resolve leadership-level questions before involving the full team.
-
-Respect Engineering's time.
+The meeting exists to solve coordination problems—not report progress.
 
 ---
 
-## Skipping Discovery
+## Discussing Implementation
 
-If significant customer or technical questions remain, the work is not ready.
+Technical design belongs in Engineering Refinement.
 
-Discovery should happen before Refinement—not during it.
+Delivery Sync focuses on preparing work—not determining how it will be built.
 
 ---
 
-## Trying to Perfect Every Story
+## Reprioritizing the Backlog
 
-Stories do not need every answer.
+Major prioritization decisions belong in Backlog Health Review.
 
-They need enough clarity for meaningful discussion during Refinement.
+Delivery Sync assumes priorities have already been established.
+
+---
+
+## Inviting Too Many People
+
+The meeting should remain small enough to make decisions quickly.
+
+Broader communication can happen afterward.
 
 ---
 
 # Success Measures
 
-A successful Pre-Refinement meeting results in:
+Delivery Sync is successful when:
 
-- Shorter Refinement sessions
-- Fewer Engineering questions during implementation
-- Better prepared stories
-- Earlier identification of technical risks
-- Reduced rework
-- Higher confidence entering development
+- Product and Engineering remain aligned.
+- Dependencies are identified early.
+- Delivery risks are addressed before they become blockers.
+- Work flows smoothly into Pre-Refinement.
+- Engineering receives a steady pipeline of prepared work.
 
-The meeting succeeds when Engineering spends less time asking "What are we building?" and more time discussing "What's the best way to build it?"
+The meeting succeeds when teams spend less time reacting to delivery issues and more time building valuable products.
+
+---
+
+# Relationship to Other Meetings
+
+| Backlog Health Review | Delivery Sync |
+|------------------------|---------------|
+| Decide what enters the pipeline | Coordinate how work moves through the pipeline |
+| Product-led | Joint Product & Engineering |
+| Prioritize investments | Coordinate delivery |
+| Review discovery | Review readiness and dependencies |
+
+| Delivery Sync | Pre-Refinement |
+|---------------|----------------|
+| Coordinate upcoming work | Validate business readiness |
+| Review dependencies | Resolve remaining questions |
+| Cross-functional planning | Product-led preparation |
+
+Each meeting builds upon the previous one, creating a continuous flow from discovery to delivery.
 
 ---
 
@@ -257,10 +277,10 @@ The meeting succeeds when Engineering spends less time asking "What are we build
 
 | Category | Recommendation |
 |-----------|----------------|
-| **Purpose** | Prepare work before Refinement |
-| **Owner** | Product Manager |
-| **Facilitator** | Product Manager or Product Owner |
-| **Attendees** | Product Manager, Product Owner, Engineering Manager, Tech Lead (optional) |
+| **Purpose** | Coordinate Product and Engineering before work enters implementation |
+| **Owner** | Product Manager & Engineering Manager |
+| **Facilitator** | Product Manager |
+| **Attendees** | Product Manager, Engineering Manager, Product Owner, Tech Lead (recommended) |
 | **Cadence** | Weekly |
 | **Duration** | 30–45 minutes |
-| **Primary Outputs** | Ready stories, engineering spikes, discovery actions, updated acceptance criteria |
+| **Primary Outputs** | Coordinated priorities, resolved dependencies, delivery actions, work ready for Pre-Refinement |
