@@ -222,3 +222,75 @@ Most importantly, they shift the focus away from writing large specifications an
 | Success | Reduce average processing time by 75%. |
 
 A Decision Record should tell the story of the decision clearly enough that someone joining the project six months later can understand both the reasoning and the expected outcome.
+
+---
+
+# Decision Record Checklist
+
+Before approving a Decision Record, review the following questions.
+
+## Problem
+
+- [ ] Have we clearly defined the problem?
+- [ ] Are we solving the root cause instead of a symptom?
+- [ ] Do we understand who is affected?
+
+---
+
+## Business Value
+
+- [ ] Why does this matter?
+- [ ] What customer or business outcome are we trying to achieve?
+- [ ] Does this align with our product strategy?
+
+---
+
+## Options
+
+- [ ] Have we considered more than one approach?
+- [ ] Have we documented the tradeoffs?
+- [ ] Why was the selected option chosen?
+
+---
+
+## Assumptions
+
+- [ ] What assumptions are we making?
+- [ ] Have those assumptions been validated?
+- [ ] What would cause us to change direction?
+
+---
+
+## Risks
+
+- [ ] Have we identified the major technical risks?
+- [ ] Have we identified the major business risks?
+- [ ] What happens if we do nothing?
+
+---
+
+## Success
+
+- [ ] How will we measure success?
+- [ ] What metrics will improve?
+- [ ] How will we know the investment was worthwhile?
+
+---
+
+## Communication
+
+- [ ] Could someone joining this project six months from now understand why this decision was made?
+- [ ] Is the recommendation clear?
+- [ ] Have the appropriate stakeholders reviewed the decision?
+
+---
+
+# Final Question
+
+Before moving into delivery, ask one final question:
+
+> **If we made this decision today with the information we have, would we still feel confident explaining it six months from now?**
+
+If the answer is "no," additional discovery may be needed.
+
+The purpose of a Decision Record isn't to eliminate uncertainty. It's to ensure the organization makes informed, transparent, and intentional decisions.
