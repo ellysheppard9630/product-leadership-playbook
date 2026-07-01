@@ -1,15 +1,16 @@
-
 # Meetings
 
-Meetings exist to help teams make better decisions.
+Meetings are one of the primary ways Product and Engineering work together.
 
-They should create clarity, remove blockers, improve alignment, and accelerate delivery.
+They should create clarity, reduce uncertainty, transfer ownership, or enable decisions.
 
-If a meeting doesn't produce an outcome, it should be restructured—or eliminated.
+If a meeting accomplishes none of those things, it should be redesigned—or eliminated.
 
-The goal isn't to have fewer meetings.
+This operating model intentionally reduces unnecessary Product participation in Engineering ceremonies while increasing collaboration at the moments where Product creates the most value.
 
-The goal is to have meetings that consistently create value.
+Product doesn't attend everything.
+
+Product attends intentionally.
 
 ---
 
@@ -18,158 +19,214 @@ The goal is to have meetings that consistently create value.
 Every recurring meeting should answer four questions:
 
 - Why are we meeting?
-- Who needs to attend?
-- What decision will be made?
-- What should exist when the meeting ends?
+- Who owns this meeting?
+- What decision or outcome should it produce?
+- Could this have been handled asynchronously?
 
-If those questions cannot be answered, the meeting likely needs to be redesigned.
-
----
-
-# Principles
-
-## Meetings Should Have a Purpose
-
-Avoid meetings that exist simply because they have always existed.
-
-Each meeting should support one of four objectives:
-
-- Make a decision
-- Share important information
-- Solve a problem
-- Plan upcoming work
-
-If a meeting accomplishes none of these, it probably isn't necessary.
+Meetings should exist because they create value—not because the calendar says they should.
 
 ---
 
-## Invite the Right People
+# Ownership Matters
 
-Not everyone needs to attend every meeting.
+One of the principles of this operating model is that meetings should reinforce ownership.
 
-Invite the people who:
+Product owns:
 
-- Can make decisions
-- Have important context
-- Will perform follow-up work
+- Customer problems
+- Business priorities
+- Discovery
+- Roadmap decisions
 
-Everyone else should receive the outcomes, not the meeting invitation.
+Engineering owns:
+
+- Technical implementation
+- Estimation
+- Sprint execution
+- Delivery planning
+
+Meetings should reflect those responsibilities.
+
+Product should not facilitate Engineering meetings.
+
+Engineering should not own Product strategy.
 
 ---
 
-## Meetings Should Produce Outputs
+# The Product Delivery Lifecycle
 
-Every meeting should end with something tangible.
+Work flows through a series of collaborative checkpoints.
+
+Each meeting has a distinct purpose.
+
+```mermaid
+flowchart LR
+
+A[Customer Discovery]
+--> B[Backlog Health Review]
+
+B --> C[Delivery Sync]
+
+C --> D[Pre-Refinement]
+
+D --> E[Engineering Refinement]
+
+E --> F[Development]
+
+F --> G[Project Checkpoint]
+
+G --> H[Release]
+
+H --> I[Measure Outcomes]
+
+I --> A
+```
+
+Every meeting exists to prepare the next stage—not repeat the previous one.
+
+---
+
+# Meeting Categories
+
+## Discovery
+
+Discovery meetings help determine whether work should move forward.
+
+Examples:
+
+- Customer Discovery
+- Backlog Health Review
+
+Primary question:
+
+> Are we solving the right problem?
+
+---
+
+## Planning
+
+Planning meetings prepare work for delivery.
+
+Examples:
+
+- Delivery Sync
+- Pre-Refinement
+- Engineering Refinement
+
+Primary question:
+
+> Are we ready to build?
+
+---
+
+## Validation
+
+Validation meetings ensure implementation continues to align with business objectives.
+
+Examples:
+
+- Project Checkpoint
+
+Primary question:
+
+> Are we still building the right thing?
+
+---
+
+## Leadership
+
+Leadership meetings evaluate the overall health of the Product organization.
+
+Examples:
+
+- Quarterly Planning
+- Product Operations Review
+- Executive Review
+
+Primary question:
+
+> Are we investing our time and resources effectively?
+
+---
+
+# Recommended Meeting Cadence
+
+| Meeting | Owner | Typical Cadence |
+|----------|-------|-----------------|
+| Backlog Health Review | Product | Weekly |
+| Delivery Sync | Product + Engineering | Weekly |
+| Pre-Refinement | Product | Weekly |
+| Engineering Refinement | Engineering | As Needed |
+| Project Checkpoint | Product + Engineering | Every 1–2 Weeks |
+| Quarterly Planning | Product | Quarterly |
+| Product Operations Review | Product Leadership | Monthly |
+| Executive Review | Product Leadership | Monthly or Quarterly |
+
+Cadence should support the needs of the organization rather than follow a framework for its own sake.
+
+---
+
+# AI Should Reduce Administrative Work
+
+AI should help teams spend less time managing meetings and more time making decisions.
 
 Examples include:
-
-- Decisions
-- Action items
-- Updated priorities
-- Risks
-- Follow-up tasks
-- Assigned owners
-
-Discussion without action rarely creates value.
-
----
-
-## AI Should Reduce Administrative Work
-
-AI can help by:
 
 - Creating agendas
 - Summarizing discussions
 - Capturing action items
 - Documenting decisions
 - Drafting follow-up communications
+- Identifying risks
+- Tracking unresolved questions
 
-AI should reduce note-taking so participants can focus on the conversation.
+AI supports the meeting.
 
----
-
-# Meeting Categories
-
-This playbook organizes meetings into several categories.
-
-## Operational Meetings
-
-Support day-to-day delivery.
-
-Examples:
-
-- Backlog Health Review
-- Pre-Refinement
-- Refinement
-- Sprint Review
-
----
-
-## Strategic Meetings
-
-Focus on future investment and organizational direction.
-
-Examples:
-
-- Roadmap Review
-- Quarterly Planning
-- Executive Review
-
----
-
-## Collaborative Meetings
-
-Bring Product and Engineering together to solve problems, remove blockers, and improve delivery.
-
-These meetings should encourage discussion—not status reporting.
-
----
-
-# Recommended Meeting Cadence
-
-| Meeting | Typical Cadence |
-|----------|-----------------|
-| Backlog Health Review | Weekly |
-| Pre-Refinement | Weekly |
-| Refinement | Weekly or as needed |
-| Sprint Review | Every Sprint |
-| Roadmap Review | Monthly |
-| Quarterly Planning | Quarterly |
-| Executive Review | Monthly or Quarterly |
-
-Cadence should support the needs of the organization rather than follow a framework for its own sake.
+It does not replace the conversation.
 
 ---
 
 # Measuring Meeting Effectiveness
 
-Good meetings become shorter over time because teams become better aligned.
+Healthy meetings become more valuable over time.
 
-Questions to ask regularly:
+Review meetings regularly by asking:
 
-- Did we make the decisions we intended to make?
-- Did everyone who attended need to be there?
-- Were clear action items identified?
-- Could AI automate any part of this meeting?
-- Should this meeting continue in its current form?
+- Did we accomplish our objective?
+- Were the right people in the room?
+- Did we leave with clear decisions?
+- Could part of this meeting become asynchronous?
+- Is this meeting still necessary?
 
-Meeting quality should improve continuously.
+Every recurring meeting should continue earning its place on the calendar.
 
 ---
 
 # What's Covered in This Section
 
-The following chapters describe the purpose, attendees, cadence, and expected outcomes for each recurring meeting in the Product operating model.
+The following chapters describe each meeting in the Product operating model.
 
 - Backlog Health Review
+- Delivery Sync
 - Pre-Refinement
-- Refinement
-- Sprint Review
-- Roadmap Review
+- Engineering Refinement
+- Project Checkpoint
 - Quarterly Planning
+- Product Operations Review
 - Executive Review
 
-Each meeting is designed to support a specific stage of the Product lifecycle while minimizing unnecessary overhead.
+Each chapter explains:
+
+- Purpose
+- Owner
+- Attendees
+- Cadence
+- Typical agenda
+- Inputs
+- Outputs
+- Success measures
+
+Together, these meetings create a repeatable operating cadence that balances Product strategy with Engineering autonomy.
 
 ---
 
@@ -181,11 +238,11 @@ They measure meetings by the quality of the decisions they enable.
 
 When meetings are well designed:
 
-- Teams spend less time in status updates.
-- Decisions happen faster.
-- Ownership is clear.
-- Engineering has fewer blockers.
 - Product spends more time with customers.
-- Leaders gain better visibility without creating additional process.
+- Engineering spends more time building.
+- Decisions happen earlier.
+- Work moves through delivery with fewer surprises.
+- Ownership is clear.
+- Teams collaborate without unnecessary process.
 
 Meetings should create momentum—not bureaucracy.
