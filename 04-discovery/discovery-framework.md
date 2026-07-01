@@ -24,18 +24,4 @@ J --> K[Delivery]
 K --> L[Measure Outcomes]
 ```
 
-Request enters system
-        ↓
-Initial triage
-        ↓
-Business or Technical?
-        ↓
-Product Discovery      Engineering Discovery
-        ↓                     ↓
-Validation          Technical Research
-        ↓                     ↓
-Recommendation
-        ↓
-Prioritization
-        ↓
-Delivery
+
