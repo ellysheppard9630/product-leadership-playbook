@@ -1,3 +1,29 @@
+```mermaid
+flowchart TD
+
+A[New Initiative] --> B{Primary Uncertainty?}
+
+B -->|Business / Customer| C[Product-Led Discovery]
+B -->|Technical| D[Engineering-Led Discovery]
+
+C --> E[Requirements]
+C --> F[Customer Validation]
+C --> G[Prioritization]
+
+D --> H[Architecture]
+D --> I[Technical Research]
+D --> J[Implementation Strategy]
+
+E --> K[Delivery]
+F --> K
+G --> K
+H --> K
+I --> K
+J --> K
+
+K --> L[Measure Outcomes]
+```
+
 # Dual-Track Discovery
 
 Not every project requires the same level of Product involvement.
