@@ -1,63 +1,74 @@
 # Backlog Health Review
 
-The Backlog Health Review is a recurring working session focused on ensuring the Product backlog remains organized, prioritized, and ready for delivery.
+The Backlog Health Review is the Product organization's primary planning meeting.
 
-Unlike refinement sessions, this meeting does not focus on estimating individual stories.
+Its purpose is to ensure the backlog reflects the organization's current priorities, strategic direction, and customer needs before work enters Engineering.
 
-Instead, it focuses on the overall health of the backlog and preparing upcoming work before Engineering needs it.
+Unlike traditional backlog grooming sessions, this meeting is not about reviewing every story or preparing work for estimation.
 
-The objective is to reduce surprises, improve prioritization, and ensure Product and Engineering remain aligned on what comes next.
+It is about maintaining a healthy pipeline of valuable work.
 
 ---
 
 # Purpose
 
-The Backlog Health Review exists to answer several important questions.
+The Backlog Health Review answers one question:
 
-- Are we working on the right things?
-- Is upcoming work ready?
-- Has discovery been completed?
-- Are priorities still correct?
-- Are there risks we need to address?
-- Is Engineering likely to encounter blockers?
+> **Are we working on the right things?**
 
-Healthy backlogs create predictable delivery.
+Every discussion should help Product make better investment decisions.
+
+The meeting focuses on priorities, discovery progress, and backlog quality—not implementation.
 
 ---
 
-# Meeting Objectives
+# Ownership
 
-During each review, the team should:
+Product owns the Backlog Health Review.
 
-- Review upcoming initiatives
-- Confirm priorities
-- Remove stale work
-- Review discovery status
-- Identify dependencies
-- Discuss engineering concerns
-- Assign follow-up actions
-- Prepare work for Pre-Refinement
+Engineering participates to provide technical context, identify risks, and raise dependency concerns.
 
-The meeting should focus on readiness rather than implementation details.
+Final prioritization decisions remain the responsibility of Product.
+
+---
+
+# Objectives
+
+During each meeting the team should:
+
+- Review strategic priorities
+- Evaluate upcoming initiatives
+- Confirm discovery progress
+- Remove stale backlog items
+- Identify duplicate requests
+- Review customer escalations
+- Identify technical dependencies
+- Determine what is ready for Delivery Sync
+
+The meeting should improve the quality of the backlog—not simply reorganize it.
 
 ---
 
 # Typical Attendees
 
-Required:
+Required
 
 - Product Manager
-- Product Owner (if applicable)
+- Product Owner
+
+Recommended
+
 - Engineering Manager
 
-Optional:
+Optional
 
-- Technical Lead
 - Architect
-- UX Designer
-- QA Lead
+- UX
+- QA
+- Customer Success
+- Support
 
-Invite only the people necessary to make decisions.
+Invite participants who can improve prioritization decisions.
 
 ---
 
@@ -65,113 +76,129 @@ Invite only the people necessary to make decisions.
 
 Weekly
 
-The meeting should occur early enough that Product has time to resolve questions before refinement begins.
+The meeting should occur before Delivery Sync so Product enters cross-functional discussions with a current and well-prioritized backlog.
 
 ---
 
 # Typical Agenda
 
-## Review Priority Changes
+## Review Strategic Priorities
+
+Discuss:
+
+- Roadmap changes
+- Executive direction
+- Customer commitments
+- Business initiatives
+- Regulatory work
+- Platform investments
+
+Ensure the backlog continues to reflect current organizational priorities.
+
+---
+
+## Review Discovery Progress
+
+For upcoming initiatives, ask:
+
+- Has customer discovery been completed?
+- Has technical discovery been completed?
+- Are Decision Records complete?
+- Are success metrics defined?
+- Are assumptions documented?
+
+Discovery should precede delivery.
+
+---
+
+## Evaluate Upcoming Work
+
+Look several weeks ahead.
+
+Determine:
+
+- What is likely to enter delivery?
+- What still requires discovery?
+- What should remain in the backlog?
+- What should be removed?
+
+Focus on readiness—not estimation.
+
+---
+
+## Review Customer Feedback
 
 Discuss:
 
 - New requests
-- Strategy changes
-- Customer escalations
-- Leadership priorities
-- Production issues
+- Support trends
+- Escalations
+- Customer interviews
+- Emerging themes
 
-Confirm that backlog ordering still reflects organizational priorities.
+Multiple requests may represent the same underlying problem.
 
----
-
-## Review Upcoming Work
-
-Look several iterations ahead.
-
-Questions include:
-
-- Is discovery complete?
-- Are requirements clear?
-- Do we understand customer value?
-- Are dependencies identified?
-- Are there unanswered questions?
-
-Upcoming work should never surprise Engineering.
+Focus on identifying patterns rather than reacting to individual requests.
 
 ---
 
-## Remove or Reprioritize Work
+## Remove Stale Work
 
-Review items that have remained in the backlog for an extended period.
+Regularly review older backlog items.
 
 Ask:
 
 - Is this still valuable?
 - Has another initiative replaced it?
-- Has customer feedback changed?
+- Has the business changed?
 - Should this be archived?
 
-Healthy backlogs contain active opportunities—not historical wish lists.
+A healthy backlog is curated—not accumulated.
 
 ---
 
-## Engineering Feedback
+## Prepare for Delivery Sync
 
-Engineering should identify:
+Identify initiatives ready for cross-functional coordination.
 
-- Technical concerns
-- Missing information
-- Required spikes
-- Architecture discussions
-- Capacity risks
+Those initiatives should have:
 
-This meeting creates an opportunity to surface those concerns before delivery begins.
+- Completed discovery
+- Clear business outcomes
+- Defined ownership
+- Known dependencies
 
----
-
-## Discovery Status
-
-Review ongoing discovery efforts.
-
-Determine:
-
-- What's ready?
-- What's blocked?
-- What still requires customer validation?
-- What technical discovery remains?
-
-Only discovered work should move toward implementation.
+These become the primary inputs for Delivery Sync.
 
 ---
 
 # Inputs
 
-Typical meeting inputs include:
+Typical inputs include:
 
-- Product roadmap
-- Backlog
-- Discovery documents
+- Product Roadmap
+- Customer Discovery
 - Decision Records
-- Customer feedback
-- Engineering recommendations
-- Production issues
-- Strategic initiatives
+- Customer Feedback
+- Support Trends
+- Production Issues
+- Strategic Initiatives
+- Engineering Recommendations
 
 ---
 
 # Outputs
 
-Every Backlog Health Review should produce:
+Each Backlog Health Review should produce:
 
-- Updated priorities
-- Assigned action items
-- Discovery follow-ups
-- Identified risks
-- Archived backlog items
-- Ready candidates for Pre-Refinement
+- Updated backlog priorities
+- Archived or removed work
+- New discovery actions
+- Identified dependencies
+- Escalations requiring leadership attention
+- Initiatives ready for Delivery Sync
 
-The backlog should be healthier when the meeting ends than when it began.
+The backlog should leave the meeting healthier than it entered.
 
 ---
 
@@ -179,68 +206,86 @@ The backlog should be healthier when the meeting ends than when it began.
 
 AI can prepare the meeting by:
 
-- Identifying duplicate backlog items
-- Highlighting stale work
-- Summarizing customer feedback
-- Grouping similar requests
-- Suggesting backlog organization
-- Drafting agenda items
-- Identifying missing acceptance criteria
+- Detecting duplicate requests
+- Grouping similar customer feedback
+- Identifying stale backlog items
+- Summarizing support cases
+- Highlighting discovery gaps
+- Drafting initiative summaries
+- Identifying missing Decision Records
 
-AI should reduce preparation effort while allowing Product and Engineering to focus on decision-making.
+AI should reduce preparation time while allowing Product to focus on prioritization.
 
 ---
 
 # Common Mistakes
 
-## Reviewing Too Much Work
+## Treating the Backlog as Storage
 
-The objective is not to review the entire backlog.
+A backlog is not a permanent archive.
 
-Focus on work that is likely to enter delivery soon.
-
----
-
-## Turning It Into Refinement
-
-Avoid discussing implementation details or estimating stories.
-
-Those conversations belong in Pre-Refinement and Refinement.
+Every item should have a purpose.
 
 ---
 
-## Ignoring Technical Investments
+## Discussing Implementation
 
-Customer features should not dominate every discussion.
+Implementation belongs in Engineering meetings.
 
-Platform improvements, modernization, technical debt, and security initiatives should remain visible.
+Backlog Health focuses on investment decisions.
 
 ---
 
-## Leaving Without Decisions
+## Reviewing Every Story
 
-Every meeting should produce:
+The meeting should focus on initiatives likely to enter delivery.
 
-- Updated priorities
-- Assigned owners
-- Clear next steps
+Older work can be reviewed on a rotating basis.
 
-Discussion without action creates little value.
+---
+
+## Prioritizing the Loudest Stakeholder
+
+Priorities should reflect organizational strategy—not individual influence.
+
+---
+
+## Ignoring Platform Work
+
+Customer-facing initiatives are only one part of a healthy portfolio.
+
+Modernization, technical debt, security, and infrastructure investments deserve regular attention.
 
 ---
 
 # Success Measures
 
-A successful Backlog Health Review results in:
+The Backlog Health Review is successful when:
 
-- Fewer surprises during refinement
-- Better prepared engineering teams
-- Reduced clarification requests
-- Healthier backlog prioritization
-- Faster delivery decisions
-- Better alignment between Product and Engineering
+- Product priorities are clear.
+- Upcoming work has completed discovery.
+- Stale work is regularly removed.
+- Engineering receives a well-prepared pipeline.
+- The backlog reflects organizational strategy.
 
-The meeting succeeds when Engineering consistently has a well-understood pipeline of valuable work ready for delivery.
+The meeting succeeds when Engineering always has valuable, well-understood work available without Product having to make last-minute prioritization decisions.
+
+---
+
+# Relationship to Delivery Sync
+
+The Backlog Health Review and Delivery Sync serve different purposes.
+
+| Backlog Health Review | Delivery Sync |
+|------------------------|---------------|
+| Product-owned | Product + Engineering |
+| Portfolio management | Cross-functional coordination |
+| Prioritize work | Coordinate delivery |
+| Review discovery | Review readiness |
+| Remove stale work | Resolve dependencies |
+| Prepare upcoming initiatives | Prepare work for Pre-Refinement |
+
+Together, these meetings ensure that Product determines **what** enters delivery before Product and Engineering collaborate on **how** it moves through delivery.
 
 ---
 
@@ -248,10 +293,10 @@ The meeting succeeds when Engineering consistently has a well-understood pipelin
 
 | Category | Recommendation |
 |-----------|----------------|
-| **Purpose** | Maintain a healthy, prioritized, and ready backlog |
-| **Owner** | Product Manager |
-| **Facilitator** | Product Manager or Product Owner |
-| **Attendees** | Product, Engineering Manager, Product Owner (if applicable) |
+| **Purpose** | Maintain a healthy, strategically aligned backlog |
+| **Owner** | Product |
+| **Facilitator** | Product Manager |
+| **Attendees** | Product Managers, Product Owners, Engineering Manager (recommended) |
 | **Cadence** | Weekly |
-| **Duration** | 30–60 minutes |
-| **Primary Outputs** | Updated priorities, discovery actions, backlog cleanup, ready work for Pre-Refinement |
+| **Duration** | 45–60 minutes |
+| **Primary Outputs** | Updated priorities, discovery actions, backlog cleanup, initiatives ready for Delivery Sync |
