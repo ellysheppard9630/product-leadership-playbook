@@ -1,3 +1,9 @@
+## Discovery Track
+
+- [ ] Product-Led Discovery
+- [ ] Engineering-Led Discovery
+- [ ] Hybrid Discovery
+
 # Decision Record Template
 
 > Use this template to document significant product, business, or technical decisions.
