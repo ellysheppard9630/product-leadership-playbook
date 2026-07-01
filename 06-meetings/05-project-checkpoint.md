@@ -1,14 +1,14 @@
 # Project Checkpoint
 
-Project Checkpoint is a collaborative review between Product and Engineering that occurs while implementation is in progress.
+Project Checkpoint is a collaborative review between Product and Engineering that occurs during active development.
 
-Its purpose is to validate that the solution being built continues to align with the intended business outcome before development is complete.
+Its purpose is to validate that the solution being built continues to solve the intended business problem before implementation is complete.
 
-Unlike a Sprint Review, Project Checkpoint focuses on work in progress.
+Unlike Engineering Refinement, this meeting is not about planning implementation.
 
-Unlike Engineering Refinement, it is not about planning implementation.
+Unlike Release Reviews or Sprint Reviews, this meeting is not about demonstrating completed work.
 
-It is an opportunity to inspect direction, reduce rework, and ensure Product and Engineering remain aligned throughout delivery.
+Project Checkpoint exists to ensure Product and Engineering remain aligned while there is still time to make meaningful adjustments.
 
 ---
 
@@ -22,7 +22,9 @@ Engineering demonstrates progress.
 
 Product validates business alignment.
 
-Together, they decide whether the project should continue as planned or whether adjustments are needed.
+Together, they determine whether the project should continue as planned or whether course corrections are necessary.
+
+The objective is early alignment—not approval.
 
 ---
 
@@ -30,13 +32,23 @@ Together, they decide whether the project should continue as planned or whether 
 
 Project Checkpoint is jointly owned by Product and Engineering.
 
-Engineering owns the demonstration.
+Engineering owns:
 
-Product owns validation against the original business objective.
+- Demonstrating progress
+- Explaining implementation decisions
+- Highlighting technical discoveries
+- Identifying delivery risks
 
-Neither team is approving the other's work.
+Product owns:
 
-They are ensuring the solution remains aligned with the intended outcome.
+- Validating customer outcomes
+- Confirming business alignment
+- Identifying changes in customer needs
+- Evaluating whether the project still supports business objectives
+
+Neither team approves the other's work.
+
+Both teams collaborate to ensure the project remains on the right path.
 
 ---
 
@@ -46,12 +58,13 @@ During each Project Checkpoint the team should:
 
 - Demonstrate work in progress
 - Validate business alignment
-- Review workflow and user experience
+- Review the customer workflow
+- Identify misunderstandings early
 - Discuss discoveries made during implementation
-- Identify opportunities for early course correction
-- Resolve misunderstandings before development is complete
+- Review new customer feedback
+- Determine whether adjustments are needed
 
-The objective is alignment—not approval.
+The earlier a misunderstanding is identified, the less expensive it is to correct.
 
 ---
 
@@ -74,7 +87,7 @@ Optional
 - Customer Success
 - Executive Sponsor (for major initiatives)
 
-Attendance should remain focused on decision-makers.
+Attendance should remain focused on people who can make decisions.
 
 ---
 
@@ -84,7 +97,7 @@ Every one to two weeks during active development.
 
 Large initiatives may benefit from multiple checkpoints.
 
-Smaller efforts may only require one.
+Smaller initiatives may only require one.
 
 ---
 
@@ -92,90 +105,100 @@ Smaller efforts may only require one.
 
 ## Engineering Demonstration
 
-Engineering demonstrates the current implementation.
+Engineering demonstrates current progress.
 
 Examples include:
 
 - User interface
-- Workflow
+- Business workflow
 - API behavior
 - Integrations
-- Reporting
 - Performance improvements
-- Platform modernization progress
+- Platform modernization
 
-The demonstration should focus on progress—not perfection.
+The demonstration should focus on how the solution behaves—not on implementation details.
 
 ---
 
 ## Validate Business Alignment
 
-Product reviews the implementation against the original objectives.
+Product evaluates the implementation against the original Decision Record.
 
 Questions include:
 
-- Does this solve the intended customer problem?
-- Does the workflow support the desired user experience?
-- Has anything changed since discovery?
-- Are we still aligned with the Decision Record?
-- Have new opportunities emerged?
+- Does this still solve the intended customer problem?
+- Does the workflow match customer expectations?
+- Have business priorities changed?
+- Has new customer feedback changed our understanding?
+- Are we still aligned with the expected outcome?
 
-The goal is to validate direction—not redesign the solution.
+The discussion focuses on outcomes—not aesthetics.
 
 ---
 
-## Discuss Risks and Discoveries
+## Review Technical Discoveries
 
 Engineering shares:
 
-- Technical discoveries
-- Unexpected complexity
-- Emerging risks
+- Unexpected technical findings
+- New risks
 - Dependency changes
-- Timeline impacts
+- Timeline concerns
+- Architecture decisions that affect the business
+
+Product gains visibility without directing implementation.
+
+---
+
+## Review Customer Discoveries
 
 Product shares:
 
-- Customer feedback
-- Business changes
+- New customer feedback
+- Market changes
 - Updated priorities
-- New information from discovery
+- Newly identified opportunities
 
-Both teams leave with a shared understanding of the project's current state.
-
----
-
-## Decide the Next Step
-
-Every Project Checkpoint should end with a clear decision.
-
-Possible outcomes include:
-
-✅ Continue
-
-The project remains aligned and development continues.
+Engineering gains business context while maintaining ownership of delivery.
 
 ---
 
-🟡 Minor Adjustment
+## Make Decisions
 
-Small business or technical changes are required.
+Every Project Checkpoint should end with a clear outcome.
 
-Engineering incorporates the adjustments without restarting discovery.
+### Continue
+
+The project remains aligned.
+
+Engineering continues implementation.
 
 ---
 
-🔵 Return to Discovery
+### Minor Adjustment
 
-New information has fundamentally changed the business problem or expected outcome.
+Small workflow or business changes are required.
+
+Engineering incorporates the adjustment without restarting discovery.
+
+---
+
+### Return to Discovery
+
+New information has fundamentally changed the problem being solved.
 
 Product resumes discovery before additional implementation continues.
 
 ---
 
-⏸ Escalate
+### Escalate
 
-The project requires leadership input due to scope, funding, timeline, or strategic changes.
+Leadership input is required due to:
+
+- Scope changes
+- Funding changes
+- Strategic changes
+- Timeline concerns
 
 ---
 
@@ -184,12 +207,12 @@ The project requires leadership input due to scope, funding, timeline, or strate
 Typical inputs include:
 
 - Decision Record
-- Work in Progress
-- Current Build
-- UX Designs
-- Customer Feedback
-- Success Metrics
-- Engineering Progress
+- Current implementation
+- Customer feedback
+- Success metrics
+- UX designs
+- Engineering progress
+- Discovery updates
 
 ---
 
@@ -201,9 +224,9 @@ Each Project Checkpoint should produce:
 - Agreed-upon adjustments
 - Updated risks
 - Follow-up actions
-- Executive escalations (if needed)
+- Leadership escalations (when necessary)
 
-Most importantly, the team leaves with confidence that the project continues to solve the intended problem.
+Most importantly, both organizations should leave with confidence that the project remains aligned with the intended outcome.
 
 ---
 
@@ -211,14 +234,14 @@ Most importantly, the team leaves with confidence that the project continues to 
 
 AI can assist by:
 
-- Comparing the current implementation to the Decision Record
-- Summarizing changes since the previous checkpoint
-- Capturing action items
-- Generating executive summaries
-- Drafting customer update notes
-- Tracking unresolved questions
+- Comparing implementation against the Decision Record
+- Summarizing progress since the previous checkpoint
+- Capturing meeting decisions
+- Identifying unresolved questions
+- Drafting executive summaries
+- Generating customer update notes
 
-AI should reduce administrative work while allowing the conversation to remain focused on decision-making.
+AI should reduce documentation effort while allowing the discussion to remain focused on decision-making.
 
 ---
 
@@ -228,15 +251,17 @@ AI should reduce administrative work while allowing the conversation to remain f
 
 Engineering is not asking Product for permission to continue.
 
-The meeting exists to maintain alignment—not require approval.
+Product is validating that the business objective remains correct.
+
+The meeting exists to maintain alignment—not create additional governance.
 
 ---
 
-## Waiting Until Sprint Review
+## Waiting Until the End
 
-Waiting until work is complete makes course correction expensive.
+If Product waits until a Sprint Review or Release Review to see the implementation, meaningful changes become significantly more expensive.
 
-Project Checkpoints intentionally happen before implementation is finished.
+Project Checkpoints intentionally happen while change is still inexpensive.
 
 ---
 
@@ -244,21 +269,23 @@ Project Checkpoints intentionally happen before implementation is finished.
 
 Engineering owns implementation.
 
-The discussion should remain focused on business alignment and customer outcomes.
+The discussion should remain focused on customer outcomes, workflow, and business alignment.
 
 ---
 
-## Turning It Into a Status Meeting
+## Turning the Meeting Into Status Reporting
 
-Participants should already know project status.
+Everyone should already know the project's status.
 
-The meeting exists to validate direction—not report progress.
+The meeting exists to make decisions—not communicate progress.
 
 ---
 
-## Making Major Scope Changes
+## Expanding Scope
 
-If discovery reveals a fundamentally different problem than originally understood, return to Product Discovery rather than continuously expanding scope.
+New ideas should be captured and evaluated through the normal Discovery process.
+
+Avoid continuously expanding the current initiative simply because new opportunities were identified.
 
 ---
 
@@ -266,13 +293,14 @@ If discovery reveals a fundamentally different problem than originally understoo
 
 Project Checkpoint is successful when:
 
-- Product gains visibility without managing implementation.
-- Engineering receives early business feedback.
-- Misunderstandings are identified before completion.
+- Product gains confidence that the project remains aligned with customer needs.
+- Engineering receives timely business feedback.
+- Misunderstandings are identified before implementation is complete.
 - Rework is reduced.
-- Customer outcomes remain the primary focus.
+- Product remains engaged without directing implementation.
+- Engineering maintains ownership of delivery.
 
-The meeting succeeds when both organizations remain aligned while preserving clear ownership boundaries.
+The meeting succeeds when both organizations leave with greater confidence in the project's direction.
 
 ---
 
@@ -281,17 +309,19 @@ The meeting succeeds when both organizations remain aligned while preserving cle
 | Engineering Refinement | Project Checkpoint |
 |------------------------|--------------------|
 | Plan implementation | Validate implementation |
-| Engineering-led | Joint Product & Engineering |
+| Engineering-owned | Joint Product & Engineering |
 | Estimate and organize work | Review work in progress |
 | Prepare for development | Confirm business alignment |
 
-| Project Checkpoint | Release |
-|--------------------|---------|
-| Work in progress | Completed work |
-| Early alignment | Final delivery |
-| Opportunity to adjust | Opportunity to measure outcomes |
+| Project Checkpoint | Engineering Planning |
+|--------------------|----------------------|
+| Validate work already in progress | Plan upcoming implementation |
+| Review customer alignment | Review engineering capacity |
+| Identify business adjustments | Organize engineering work |
 
-Project Checkpoint exists because it is significantly less expensive to adjust direction during development than after the solution has been completed.
+Project Checkpoint sits between planning and release.
+
+It provides one final opportunity to ensure the project is delivering the intended business outcome before development is complete.
 
 ---
 
@@ -299,7 +329,7 @@ Project Checkpoint exists because it is significantly less expensive to adjust d
 
 | Category | Recommendation |
 |-----------|----------------|
-| **Purpose** | Validate business alignment during implementation |
+| **Purpose** | Validate business alignment during development |
 | **Owner** | Product & Engineering |
 | **Facilitator** | Engineering Manager |
 | **Attendees** | Product Manager, Engineering Manager, Product Owner, Tech Lead (recommended) |
