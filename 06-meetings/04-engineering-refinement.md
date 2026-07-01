@@ -1,174 +1,225 @@
-# Refinement
 
-Refinement is an Engineering working session focused on preparing upcoming work for implementation.
+# Engineering Refinement
 
-Unlike traditional Scrum, Refinement is not where Product presents requirements or discovers missing information.
+Engineering Refinement is an Engineering-owned planning session focused on preparing approved work for implementation.
 
-Those activities should already have been completed through Discovery and Pre-Refinement.
+By the time an initiative reaches Engineering Refinement, Product has already completed discovery, documented business decisions, and confirmed business readiness through Pre-Refinement.
 
-By the time work reaches Refinement, Engineering should have everything needed to discuss implementation, estimate effort, and prepare for delivery.
+Engineering now owns the work.
 
-Refinement is owned by Engineering.
+The purpose of this meeting is not to revisit business requirements.
+
+It is to determine the best way to deliver the solution.
 
 ---
 
 # Purpose
 
-Refinement exists to answer one question:
+Engineering Refinement answers one question:
 
-> **Does Engineering have everything needed to confidently begin implementation?**
+> **How should we build this?**
 
-The focus is execution planning—not business discovery.
+The meeting allows the Engineering team to discuss implementation approaches, estimate effort, identify technical risks, and prepare work for development.
+
+Product is not expected to lead this discussion.
 
 ---
 
 # Ownership
 
-Engineering owns Refinement.
+Engineering owns Engineering Refinement.
 
-Product prepares the work.
+Engineering is responsible for:
 
-Engineering prepares to build it.
+- Technical planning
+- Story decomposition
+- Estimation
+- Architecture decisions
+- Task creation
+- Sprint planning inputs
 
-This distinction creates clear accountability while allowing both organizations to focus on their strengths.
+Product has already provided the business context.
 
----
-
-# Product's Responsibility Before Refinement
-
-Before work enters Refinement, Product should have already completed:
-
-- Customer discovery
-- Business validation
-- Prioritization
-- Decision Record
-- Acceptance criteria
-- Success metrics
-- Stakeholder alignment
-
-Engineering should not spend Refinement waiting for Product to answer basic business questions.
+Engineering now determines how to execute it.
 
 ---
 
-# Engineering's Responsibility During Refinement
+# Product's Role
 
-Engineering uses Refinement to determine:
+Product participation is optional.
 
-- Implementation approach
-- Technical design
-- Required tasks
-- Story sizing
-- Dependencies
-- Testing strategy
-- Technical risks
-- Sprint readiness
+Product should attend only when:
 
-This is Engineering planning its work—not Product explaining the work.
+- Engineering has unresolved business questions
+- Discovery uncovered new information requiring discussion
+- Business priorities have changed
+- Product input is specifically requested
+
+If Product is required at every Engineering Refinement session, it is often a sign that discovery or Pre-Refinement was incomplete.
+
+---
+
+# Objectives
+
+During each session, Engineering should:
+
+- Review approved initiatives
+- Discuss implementation options
+- Break work into stories or tasks
+- Estimate effort
+- Identify technical dependencies
+- Identify implementation risks
+- Determine testing strategy
+- Prepare work for Sprint Planning or execution
+
+The objective is engineering readiness—not business validation.
 
 ---
 
 # Typical Attendees
 
-Required:
+Required
 
 - Engineering Team
 - Engineering Manager
 
-Optional:
+Recommended
+
+- Technical Lead
+- QA
+
+Optional
 
 - Architect
-- QA
-- Product Owner
 - Product Manager
+- Product Owner
 
-Product should attend only when additional business clarification is genuinely required.
-
-If Product attends every Refinement session, it's often a sign that discovery or Pre-Refinement wasn't completed effectively.
+Engineering should own both the conversation and the decisions.
 
 ---
 
 # Recommended Cadence
 
-Weekly
+Weekly or as needed.
 
-Or whenever upcoming work requires estimation.
+The cadence should align with the team's planning rhythm rather than follow a prescribed framework.
 
 ---
 
 # Typical Agenda
 
-## Review Upcoming Work
+## Review the Initiative
 
 Briefly review:
 
-- Problem statement
-- Expected outcome
-- Acceptance criteria
+- Problem Statement
+- Desired Outcome
+- Acceptance Criteria
+- Decision Record
 
-This should take minutes—not half the meeting.
+This review should confirm shared understanding rather than restart discovery.
 
 ---
 
-## Engineering Discussion
+## Discuss Technical Approach
 
 Engineering discusses:
 
-- Technical approach
-- Task breakdown
-- Risks
+- Architecture
+- Implementation options
+- Data flow
+- Integration points
+- Performance considerations
+- Security implications
+- Operational concerns
+
+This is an Engineering conversation.
+
+---
+
+## Break Down the Work
+
+Engineering determines:
+
+- Stories
+- Technical tasks
+- Implementation sequence
+- Cross-team work
+- Technical spikes (if needed)
+
+The team decides how to organize the work—not Product.
+
+---
+
+## Estimate Effort
+
+Estimate using the team's preferred approach.
+
+Estimates should reflect the team's understanding of:
+
+- Complexity
+- Risk
+- Unknowns
 - Dependencies
-- Testing considerations
 
-Product is not expected to facilitate this discussion.
-
----
-
-## Estimate Work
-
-Estimate effort using the team's preferred estimation method.
-
-If significant uncertainty remains, create a spike rather than forcing an estimate.
+If uncertainty is too high, create a technical spike instead of forcing an estimate.
 
 ---
 
-## Confirm Sprint Readiness
+## Identify Risks
 
-Engineering determines whether the work is ready to enter implementation.
+Discuss:
 
-Possible outcomes include:
+- Technical uncertainty
+- Integration challenges
+- Infrastructure concerns
+- Capacity constraints
+- Delivery risks
 
-- Ready
-- Needs Spike
-- Needs Clarification
-- Defer
+Early visibility allows the team to proactively address issues before development begins.
+
+---
+
+## Confirm Readiness
+
+Before implementation begins, Engineering should confirm:
+
+- The business problem is understood.
+- The implementation approach is understood.
+- Stories are appropriately sized.
+- Dependencies are identified.
+- The team is confident beginning work.
 
 ---
 
 # Inputs
 
-Engineering should receive:
+Engineering Refinement receives:
 
-- Decision Record
-- Discovery summary
-- Acceptance criteria
-- Designs (if applicable)
-- Architecture recommendations
-- Supporting documentation
+- Approved Decision Record
+- Discovery Summary
+- Acceptance Criteria
+- UX Designs (if applicable)
+- Architecture Guidance
+- Technical Discovery Results
+- Customer Constraints
 
-These inputs should already answer the business questions.
+Engineering should not need to recreate business context.
 
 ---
 
 # Outputs
 
-Engineering leaves Refinement with:
+Engineering leaves the meeting with:
 
-- Story estimates
-- Implementation plan
+- Estimated work
 - Technical tasks
+- Implementation plan
 - Identified risks
-- Required spikes
-- Sprint-ready work
+- Sprint-ready backlog
+- Assigned technical spikes (if needed)
+
+The outcome should be confidence in execution.
 
 ---
 
@@ -176,73 +227,106 @@ Engineering leaves Refinement with:
 
 AI can assist Engineering by:
 
-- Breaking stories into implementation tasks
+- Breaking initiatives into technical tasks
+- Reviewing acceptance criteria
 - Identifying edge cases
 - Suggesting test scenarios
-- Reviewing acceptance criteria
 - Summarizing technical discussions
-- Capturing action items
+- Drafting implementation notes
+- Identifying missing technical considerations
 
-AI reduces administrative effort while leaving engineering decisions to engineers.
+AI accelerates planning while leaving engineering decisions to engineers.
 
 ---
 
 # Common Mistakes
 
-## Using Refinement for Discovery
+## Reopening Business Decisions
 
-Discovery should already be complete.
+Engineering Refinement should not become another discovery meeting.
+
+Business decisions should already be documented.
 
 ---
 
-## Waiting on Product
+## Waiting for Product
 
-Engineering should not spend Refinement waiting for business questions to be answered.
+Engineering should not pause planning while waiting for Product to answer questions that should have been resolved earlier.
 
-If critical questions remain, the work should return to Pre-Refinement.
+If major business questions remain, return the initiative to Pre-Refinement.
+
+---
+
+## Estimating Incomplete Work
+
+If the team lacks sufficient technical understanding, perform a spike before assigning estimates.
+
+Uncertainty should be investigated—not ignored.
 
 ---
 
 ## Solving Every Technical Detail
 
-Refinement prepares implementation.
+Engineering Refinement prepares implementation.
 
-It does not replace engineering design sessions.
+Detailed design discussions can continue throughout development.
 
 ---
 
-## Treating Product as the Facilitator
+## Measuring Success by Story Points
 
-Engineering owns delivery.
+Story points help Engineering plan.
 
-Engineering should own Refinement.
+They are not measures of customer value or Product success.
 
 ---
 
 # Success Measures
 
-Refinement is successful when:
+Engineering Refinement is successful when:
 
 - Engineering confidently estimates the work.
-- Technical risks are understood.
-- Sprint Planning becomes faster.
+- Technical risks are identified early.
+- Sprint Planning becomes straightforward.
 - Product rarely needs to attend.
-- Engineers leave with confidence instead of questions.
+- Engineers leave with a shared implementation strategy.
+
+The meeting succeeds when Engineering can move into development with confidence and minimal business clarification.
 
 ---
 
-# Relationship to Pre-Refinement
+# Relationship to Project Checkpoint
 
-| Pre-Refinement | Refinement |
-|----------------|------------|
-| Product-led | Engineering-led |
-| Validate business readiness | Validate engineering readiness |
-| Small leadership group | Engineering delivery team |
-| Resolve business questions | Plan implementation |
-| Prepare work | Size and organize work |
+Engineering Refinement and Project Checkpoint serve different purposes.
 
-Together, these meetings create a clear handoff from Product to Engineering.
+| Engineering Refinement | Project Checkpoint |
+|------------------------|--------------------|
+| Engineering-owned | Joint Product & Engineering |
+| Plan implementation | Validate implementation |
+| Estimate effort | Review work in progress |
+| Identify technical risks | Confirm business alignment |
+| Prepare for development | Adjust course before completion |
 
-Product prepares the work.
+Engineering Refinement answers:
 
-Engineering prepares the delivery.
+> **How will we build this?**
+
+Project Checkpoint answers:
+
+> **Are we still building the right thing?**
+
+Together, they allow Engineering to own delivery while ensuring Product remains engaged at meaningful decision points rather than every implementation discussion.
+
+---
+
+# Meeting Summary
+
+| Category | Recommendation |
+|-----------|----------------|
+| **Purpose** | Plan implementation and prepare Engineering for development |
+| **Owner** | Engineering |
+| **Facilitator** | Engineering Manager |
+| **Attendees** | Engineering Team, Engineering Manager, Tech Lead, QA (Product optional) |
+| **Cadence** | Weekly or as needed |
+| **Duration** | 45–60 minutes |
+| **Primary Outputs** | Estimates, implementation plan, technical tasks, identified risks, sprint-ready work |
